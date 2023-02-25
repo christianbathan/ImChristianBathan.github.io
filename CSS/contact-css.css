@@ -1,11 +1,11 @@
 @font-face {
 	font-family: ecb;
-	src: url("../fonts/EuclidCircularA-Bold.ttf");
+	src: url("/fonts/EuclidCircularA-Bold.ttf");
 }
 
 @font-face {
 	font-family: ecm;
-	src: url("../fonts/EuclidCircularA-Medium.ttf");
+	src: url("/fonts/EuclidCircularA-Medium.ttf");
 }
 
 html {
