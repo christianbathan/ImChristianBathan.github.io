@@ -1,0 +1,227 @@
+@font-face {
+	font-family: ecb;
+	src: url("fonts/EuclidCircularA-Bold.ttf");
+}
+
+@font-face {
+	font-family: ecm;
+	src: url("fonts/EuclidCircularA-Medium.ttf");
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: 111111 !important;
+}
+
+h1 {
+	font-family: ecb;
+	color: white !important;
+	font-size: 300% !important;
+}
+
+h3,
+h2,
+h4 {
+	font-family: ecb;
+	color: white !important;
+}
+
+h5 {
+	font-family: ecm;
+	color: white !important;
+	line-height: 30px !important;
+}
+
+h4 {
+	font-family: ecm;
+	color: white !important;
+}
+
+p {
+	font-family: ecm;
+	color: white !important;
+	margin: 0 !important;
+}
+
+.title {
+	margin: 0 0 20% 0;
+	padding-top: 20%;
+	height: 100%;
+	width: auto;
+	text-align: center;
+	background: -webkit-linear-gradient(#111111, #191919);
+}
+
+.edu-data {
+	margin: 0 0 20% 0;
+	padding-top: 5%;
+	height: 100%;
+	width: auto;
+}
+
+.fb-icon {
+	width: 100%;
+	/* padding-left: 50%; */
+	padding-right: 50%;
+}
+
+.icon-nav {
+	text-align: right;
+	margin-left: 20%;
+}
+
+.navbar {
+	padding: 1.5% 3% 1.5% 3% !important;
+	background-color: #111111;
+}
+
+.nav-link {
+	font-family: ecb;
+	color: white !important;
+	font-size: 120% !important;
+}
+
+.nav-link:hover {
+	color: #878787 !important;
+}
+
+.links {
+	padding: 2% 10% 0 0 !important;
+}
+
+.links2 {
+	padding: 0 10% 0 0 !important;
+}
+
+.socmed {
+	padding-left: 0 !important;
+	margin: 0 !important;
+	width: 5%;
+}
+
+.about-div {
+	margin: 10% 0 10% 0 !important;
+	text-align: center;
+	height: 100%;
+	width: auto;
+}
+
+.col {
+	background-color: #111111;
+	border-color: #191919;
+	border-width: 5px;
+	border-radius: 20px;
+	border-style: solid;
+	height: 80%;
+}
+
+.footer-text {
+	padding: 15% 15%;
+}
+
+.gradient {
+	background: -webkit-linear-gradient(45deg, #88ccf3, #25dd8d);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+table img {
+	width: 40px !important;
+}
+
+table {
+	text-align: left !important;
+	margin-top: 10%;
+}
+
+td {
+	padding: 3%;
+	line-height: 25px;
+}
+
+.pic {
+	text-align: center !important;
+	width: 20% !important;
+}
+
+.pic img {
+	margin: 0;
+	width: 40px !important;
+}
+
+.shape2 {
+	width: 40%;
+	height: 30%;
+	background: -webkit-linear-gradient(45deg, #88ccf3, #25dd8d);
+	position: absolute;
+	margin-top: -10%;
+	/* margin-left: 9.5%; */
+	z-index: -1;
+	border-radius: 20px;
+}
+
+.socmeds-icon {
+	text-align: center !important;
+	padding: 0 !important;
+	width: 40%;
+	margin: 10% auto;
+}
+
+.socmeds-icon img {
+	width: 30% !important;
+}
+
+.sm-pic {
+	text-align: right;
+}
+
+.sm-pic2 {
+	text-align: left;
+}
+
+.about-div h1 {
+	margin-bottom: 5%;
+}
+
+input {
+	margin-bottom: 5% !important;
+	background-color: #191919 !important;
+	color: white !important;
+}
+
+.form-control:focus {
+	border-color: #25dd8d !important;
+	-webkit-box-shadow: none !important;
+}
+
+textarea {
+	height: 40%;
+	background-color: #191919 !important;
+	color: white !important;
+	margin-bottom: 10% !important;
+}
+
+form {
+	font-family: ecm;
+	margin-top: 0;
+}
+
+.send {
+	padding: 1% 5% !important;
+	background: -webkit-linear-gradient(45deg, #88ccf3, #25dd8d);
+	color: #111111 !important;
+	font-family: ecb !important;
+	border-style: none !important;
+	border-radius: 8px;
+}
+
+.send:hover {
+	background: #25dd8d !important;
+}
+
+.logo-cb {
+	width: 50px;
+}

@@ -1,0 +1,187 @@
+@font-face {
+	font-family: ecb;
+	src: url("fonts/EuclidCircularA-Bold.ttf");
+}
+
+@font-face {
+	font-family: ecm;
+	src: url("fonts/EuclidCircularA-Medium.ttf");
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+#landing {
+	margin-top: 10%;
+}
+
+body {
+	background-color: #111111 !important;
+	overflow-x: hidden;
+}
+
+h1 {
+	font-family: ecb;
+	color: white !important;
+	font-size: 300% !important;
+}
+
+h3,
+h2,
+h4 {
+	font-family: ecb;
+	color: white !important;
+}
+
+h5 {
+	font-family: ecm;
+	color: white !important;
+	line-height: 30px !important;
+}
+
+h4 {
+	font-family: ecm;
+	color: white !important;
+}
+
+p {
+	font-family: ecm;
+	color: white !important;
+	margin: 0 !important;
+}
+
+.title {
+	margin: 0 0 -10% 0;
+	padding-top: 20%;
+	height: 100%;
+	width: auto;
+	text-align: center;
+	background: -webkit-linear-gradient(#111111, #191919);
+}
+
+.edu-data {
+	margin: 0 0 20% 0;
+	padding-top: 5%;
+	height: 100%;
+	width: auto;
+}
+
+.fb-icon {
+	width: 100%;
+	/* padding-left: 50%; */
+	padding-right: 50%;
+}
+
+.icon-nav {
+	text-align: right;
+	margin-left: 20%;
+}
+
+.navbar {
+	padding: 1.5% 3% 1.5% 3% !important;
+	background-color: #111111;
+}
+
+.nav-link {
+	font-family: ecb;
+	color: white !important;
+	font-size: 120% !important;
+}
+
+.nav-link:hover {
+	color: #878787 !important;
+}
+
+.links {
+	padding: 2% 10% 0 0 !important;
+}
+
+.links2 {
+	padding: 0 10% 0 0 !important;
+}
+
+.socmed {
+	padding-left: 0 !important;
+	margin: 0 !important;
+	width: 5%;
+}
+
+.about-div {
+	background-color: #191919;
+	border-radius: 20px;
+	margin: 5% 5% !important;
+	text-align: center;
+	height: 80%;
+	line-height: 30px;
+}
+
+.col {
+	background-color: #191919;
+	border-color: #191919;
+	border-width: 5px;
+	border-radius: 20px;
+	border-style: solid;
+	height: 80%;
+}
+
+.org-div {
+	background-color: #191919;
+	border-radius: 20px;
+	margin: 20% 5% 5% 5% !important;
+	text-align: center;
+	height: 100%;
+	line-height: 30px;
+	padding: 5%;
+}
+
+.footer-text {
+	padding: 15% 15%;
+}
+
+.gradient {
+	background: -webkit-linear-gradient(45deg, #88ccf3, #25dd8d);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.talk {
+	color: #88ccf3;
+}
+
+.talk:hover {
+	color: #25dd8d;
+}
+
+.talk:active {
+	color: #88ccf3;
+}
+
+.skill-logo {
+	width: 50%;
+	margin: 0 !important;
+}
+
+table {
+	text-align: center;
+	width: 90% !important;
+	height: 100% !important;
+}
+
+td {
+	padding-bottom: 3% !important;
+	width: 10%;
+}
+
+td h4 {
+	padding: 0 20% !important;
+	font-size: 20px !important;
+}
+
+.logo-cb {
+	width: 50px;
+}
+
+.ivan-logo {
+	width: 80%;
+}
